@@ -127,7 +127,7 @@ export default withMermaid(
       },
 
       footer: {
-        message: "Документация проекта xkurier. Разработано HESOYAM.",
+        message: "Документация проекта xkurier<br>Разработано HESOYAM",
         copyright: "© 2026 Yusuf Bogatyrev",
       },
 
