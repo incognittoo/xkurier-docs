@@ -5,6 +5,7 @@ export default withMermaid(
   defineConfig({
     title: 'xkurier',
     description: 'Документация системы доставки xkurier',
+    base: '/xkurier-docs/',
     lang: 'ru-RU',
     lastUpdated: true,
 
