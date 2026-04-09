@@ -177,16 +177,14 @@ sequenceDiagram
     participant App as xcourier
     participant CF as Cloud Function delivery_quote
     participant FS as Firestore
-    participant TM as Delivery API API
+    participant TM as TMDriver API
 
     C->>App: Указывает адрес доставки
     App->>CF: Запрос стоимости доставки (магазин, координаты)
     CF->>FS: Получение координат магазина
     FS-->>CF: latitude, longitude
-    CF->>TM: Выбор тарифа
-    TM-->>CF: ID тарифа
-    CF->>TM: Расчёт стоимости
+    CF->>TM: Расчёт стоимости доставки
     TM-->>CF: Стоимость доставки
-    CF-->>App: { delivery_price, tariff_id }
+    CF-->>App: { delivery_price }
     App->>C: Показ стоимости доставки
 ```

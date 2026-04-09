@@ -49,19 +49,17 @@
 
 ### order — Заказы
 
-- **Entities:** `OrderItem`, `Tariff`, `AddressSuggestion`
+- **Entities:** `OrderItem`, `AddressSuggestion`
 - **Datasources:**
   - `OrderFirestoreDataSource` — CRUD заказов
   - `AddressSuggestDatasource` — автоподсказки адресов
   - `DeliveryQuoteDatasource` — расчёт стоимости доставки
-  - `TariffFirestoreDataSource` — фиксированные тарифы
   - `SuggestedAddressFirestoreDataSource` — сохранённые адреса
 - **Контроллеры:**
   - `OrderProvider` — текущий заказ
   - `OrdersListController` — список заказов пользователя
   - `CheckoutController` — процесс оформления
   - `AddressSuggestController` — автоподсказки
-  - `TariffProvider` — тарифы доставки
 - **Страницы:** `OrdersPage`, `OrderDetailsPage`, `AddressSearchPage`
 - **Виджеты:** `OrderCard`, `AddressForm`, `DeliveryMethodSelector`, `PaymentMethodSheet`, `CitySelector`, `CheckoutBottomBar`, `OrderConfirmationDialog`
 

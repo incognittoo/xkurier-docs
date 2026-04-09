@@ -3,8 +3,8 @@ import { withMermaid } from "vitepress-plugin-mermaid";
 
 export default withMermaid(
   defineConfig({
-    title: "xkurier",
-    description: "Документация системы доставки xkurier",
+    title: "Xkurier",
+    description: "Документация системы доставки Xkurier",
     base: "/xkurier-docs/",
     lang: "ru-RU",
     lastUpdated: true,

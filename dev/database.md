@@ -158,13 +158,6 @@ erDiagram
         timestamp createdAt
     }
 
-    tariffs {
-        string id PK
-        bool active
-        string cityName
-        int deliveryPrice
-    }
-
     settings {
         string id PK
         bool cashEnabled
@@ -249,10 +242,6 @@ erDiagram
 ### `banners` — Рекламные баннеры
 
 `targetType`: `none` (просто картинка), `web` (внешняя ссылка), `store` (переход к магазину)
-
-### `tariffs` — Тарифы на доставку
-
-Фиксированные тарифы для городов без динамического расчёта доставки.
 
 ### `settings` — Глобальные настройки
 
