@@ -9,9 +9,7 @@ xkurier/
 ├── xcourier_admin/        # Админ-панель (Flutter)
 ├── xcourier_api/          # Firebase Cloud Functions (Node.js)
 ├── xcourier_pushkey_apns/ # Конфигурация APNs для push-уведомлений
-├── docs/                  # Документация (VitePress)
-├── CLAUDE.md              # Инструкции для AI-ассистента
-└── function_address.js    # Адреса Cloud Functions
+└── xkurier_docs           # Документация (VitePress)
 ```
 
 ## Структура Flutter-приложения (общая)
